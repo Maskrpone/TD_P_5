@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/maskrpone/Code/C++/TD_P_5/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/TD5.dir/main.cpp.o -c /home/maskrpone/Code/C++/TD_P_5/main.cpp",
+  "file": "/home/maskrpone/Code/C++/TD_P_5/main.cpp",
+  "output": "CMakeFiles/TD5.dir/main.cpp.o"
+}
+]
