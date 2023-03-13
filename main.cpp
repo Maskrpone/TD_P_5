@@ -223,8 +223,8 @@ Villes fichierVilles(std::string name) {
 
 int main(/*int, char***/) {
 
-    std::string nameO1 = "C:/Users/Administrateur/Documents/Supérieur_CIR-2/Programmation/Semestre 2/TD&P/fichiers_texte/8colis40capacite.txt";
-    std::string nameV1 = "C:/Users/Administrateur/Documents/Supérieur_CIR-2/Programmation/Semestre 2/TD&P/fichiers_texte/5villes.txt";
+    std::string nameO1 = "./8colis40capacite.txt";
+    std::string nameV1 = "./5villes.txt";
     
     //RECUPERATION fichierObjets
     Vehicule camion = fichierObjets(nameO1);
