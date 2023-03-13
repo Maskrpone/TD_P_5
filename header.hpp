@@ -8,13 +8,13 @@
 #include <random>
 
 
+
 class Objet {
 private:
     int id;
     int consoVeh;
     int benef;
 public:
-        Objet();
     Objet();
     Objet(int i, int conso, int ben);
     int Getid();
@@ -23,9 +23,9 @@ public:
     void Setid(int i);
     void Setconso(int conso);
     void Setbenef(int ben);
-        const int getBenef();
-        const int getConsoVeh();
-        const float getRatio();   
+    const int getBenef();
+    const int getConsoVeh();
+    const float getRatio();   
 };
 
 
@@ -43,13 +43,15 @@ public:
     void Setcapa(int capa);
     void Setnbobj(int nb);
     void AddObj(Objet obj);
+    void bestBenef();
+
 };
 
 
 class Villes {
 private:
     int nbVilles;
-    // std::vector<std::string> nomsVilles;
+    std::vector<std::string> nomsVilles;
     std::vector<std::vector<int>> matrice;
 public:
     Villes();
